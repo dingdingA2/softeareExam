@@ -6,7 +6,7 @@
         <option name="generateConfig">
           <GenerateConfig>
             <option name="annotationType" value="MYBATIS_PLUS3" />
-            <option name="basePackage" value="generator" />
+            <option name="basePackage" value="com.xiaotian.admin" />
             <option name="basePath" value="src/main/java" />
             <option name="classNameStrategy" value="camel" />
             <option name="encoding" value="UTF-8" />
@@ -63,7 +63,7 @@
             </option>
             <option name="needsComment" value="true" />
             <option name="needsModel" value="true" />
-            <option name="relativePackage" value="domain" />
+            <option name="relativePackage" value="entity" />
             <option name="superClass" value="" />
             <option name="tableUIInfoList">
               <list>
@@ -74,6 +74,7 @@
               </list>
             </option>
             <option name="templatesName" value="mybatis-plus3" />
+            <option name="useLombokPlugin" value="true" />
           </GenerateConfig>
         </option>
         <option name="moduleName" value="admin" />
